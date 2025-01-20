@@ -1,0 +1,11 @@
+[debug] > Exec(package, None, None)
+[warn] build source files have changed
+[warn] modified files: 
+[warn]   C:\Users\Utente PC\IdeaProjects\ProgettoScalable\build.sbt
+[warn] Apply these changes by running `reload`.
+[warn] Automatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.
+[warn] Disable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 1 s, completed 17-gen-2025 13.59.06
+[debug] > Exec(idea-shell, None, None)

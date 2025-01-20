@@ -1,0 +1,5 @@
+[debug] > Exec(clean/compile, None, None)
+[error] No such setting/task
+[error] clean/compile
+[error]              ^
+[debug] > Exec(idea-shell, None, None)

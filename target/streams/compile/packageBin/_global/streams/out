@@ -1,0 +1,9 @@
+[debug] Packaging C:\Users\Utente PC\IdeaProjects\ProgettoScalable\target\scala-2.12\progettoscalable_2.12-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	Main$.class
+[debug] 	  C:\Users\Utente PC\IdeaProjects\ProgettoScalable\target\scala-2.12\classes\Main$.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  C:\Users\Utente PC\IdeaProjects\ProgettoScalable\target\scala-2.12\classes\Main$delayedInit$body.class
+[debug] 	Main.class
+[debug] 	  C:\Users\Utente PC\IdeaProjects\ProgettoScalable\target\scala-2.12\classes\Main.class
+[debug] Done packaging.

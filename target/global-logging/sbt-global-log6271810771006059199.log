@@ -1,0 +1,8 @@
+[debug] > Exec(pakcage, None, None)
+[error] Not a valid command: pakcage
+[error] Not a valid project ID: pakcage
+[error] Expected ':'
+[error] Not a valid key: pakcage (similar: package, packageDoc, packageSrc)
+[error] pakcage
+[error]        ^
+[debug] > Exec(idea-shell, None, None)

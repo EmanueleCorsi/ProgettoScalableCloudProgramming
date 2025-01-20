@@ -1,0 +1,94 @@
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.7 (Oracle Corporation Java 1.8.0_202)
+[debug] Load.defaultLoad until apply took 1.6571ms
+[debug]           Load.loadUnit: plugins took 15.3474ms
+[debug]           Load.loadUnit: defsScala took 0.0047ms
+[debug] [Loading] Scanning directory C:\Users\Utente PC\IdeaProjects\ProgettoScalable\project
+[debug]             Load.loadUnit: mkEval took 0.1905ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Utente PC\IdeaProjects\ProgettoScalable\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.1717 ms
+[info] loading settings for project progettoscalable-build from idea16582.sbt...
+[debug]               Load.resolveProject(progettoscalable-build) took 1.2051ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id progettoscalable-build, base: C:\Users\Utente PC\IdeaProjects\ProgettoScalable\project, plugins: List(<none>))) took 2.6846ms
+[debug] [Loading] Done in C:\Users\Utente PC\IdeaProjects\ProgettoScalable\project, returning: (progettoscalable-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 20.7339ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.6466ms
+[debug]         Load.loadUnit(file:/C:/Users/Utente%20PC/IdeaProjects/ProgettoScalable/project/, ...) took 37.4083ms
+[debug]       Load.apply: load took 38.2134ms
+[debug]       Load.apply: resolveProjects took 0.0908ms
+[debug]       Load.apply: finalTransforms took 3.5852ms
+[debug]       Load.apply: config.delegates took 0.284ms
+[debug]       Load.apply: Def.make(settings)... took 28.4111ms
+[debug]       Load.apply: structureIndex took 8.7137ms
+[debug]       Load.apply: mkStreams took 0.0056ms
+[info] loading project definition from C:\Users\Utente PC\IdeaProjects\ProgettoScalable\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[debug]     Load.loadUnit: plugins took 335.7111ms
+[debug]     Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\Utente PC\IdeaProjects\ProgettoScalable
+[debug]       Load.loadUnit: mkEval took 0.1924ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.0142 ms
+[info] loading settings for project root from build.sbt...
+[debug]         Load.resolveProject(root) took 15.5638ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Utente PC\IdeaProjects\ProgettoScalable, plugins: List(<none>))) took 17.9345ms
+[debug] [Loading] Done in C:\Users\Utente PC\IdeaProjects\ProgettoScalable, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 585.4729ms
+[debug]     Load.loadUnit: cleanEvalClasses took 4.343ms
+[debug]   Load.loadUnit(file:/C:/Users/Utente%20PC/IdeaProjects/ProgettoScalable/, ...) took 926.0711ms
+[debug] Load.apply: load took 927.0989ms
+[debug] Load.apply: resolveProjects took 0.1089ms
+[debug] Load.apply: finalTransforms took 10.7948ms
+[debug] Load.apply: config.delegates took 0.5827ms
+[debug] Load.apply: Def.make(settings)... took 31.6496ms
+[debug] Load.apply: structureIndex took 8.1057ms
+[debug] Load.apply: mkStreams took 0.0032ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to ProgettoScalable (in build file:/C:/Users/Utente%20PC/IdeaProjects/ProgettoScalable/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * root / mainClass
+[warn]   +- C:\Users\Utente PC\IdeaProjects\ProgettoScalable\build.sbt:7
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(idea-shell, None, None)

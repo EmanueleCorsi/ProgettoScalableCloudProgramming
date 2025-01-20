@@ -1,0 +1,11 @@
+[debug] > Exec(scala target/scala-2.13/progettoscalable_2.13-0.1.0-SNAPSHOT.jar, None, None)
+[error] Expected ID character
+[error] Not a valid command: scala (similar: alias, last, eval)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: scala (similar: scalaHome, scalaSource, clean)
+[error] scala target/scala-2.13/progettoscalable_2.13-0.1.0-SNAPSHOT.jar
+[error]      ^
+[debug] > Exec(idea-shell, None, None)

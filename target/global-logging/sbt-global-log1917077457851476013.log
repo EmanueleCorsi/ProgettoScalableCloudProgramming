@@ -1,0 +1,9 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Utente PC\IdeaProjects\ProgettoScalable\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.15. Compiling...
+[info]   Compilation completed in 6.069s.
+[info] done compiling
+[success] Total time: 22 s, completed 17-gen-2025 15.41.12
+[debug] > Exec(idea-shell, None, None)
