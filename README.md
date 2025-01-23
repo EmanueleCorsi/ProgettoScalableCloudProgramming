@@ -18,3 +18,5 @@
 6. Comando per eseguire il job: gcloud dataproc jobs submit spark --cluster=<"nome cluster"> --region=us-central1 --jar=gs://<"nome bucket">/<"file.jar"> --project=<"id progetto">
 
 7. Eliminazione del cluster: gcloud dataproc clusters delete <"nome cluster"> --region us-central1 --project=<"id progetto">
+
+8. Il file di output che viene generato nel bucket deve poi essere scaricato e ne va cambiata l'estensione in csv per visualizzarlo
